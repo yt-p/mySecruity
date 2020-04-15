@@ -3,6 +3,8 @@ package com.yt.controller;
 import com.fasterxml.jackson.annotation.JsonView;
 import com.yt.exception.UserNotExistException;
 import com.yt.model.User;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -15,7 +17,8 @@ import java.util.Date;
 
 
 /**
- * @Description:
+ * @Description:  swagger自动生成文档
+ *   http://localhost:8080/swagger-ui.html
  * @Auther: yt
  * @Date: 2020/4/5 0005 21:47
  */
@@ -51,8 +54,10 @@ public class UserController {
         System.out.println(user.getBirthday());
         return user.getUserName();
     }
-    @RequestMapping(value = "/user/{id}")
-    public User getInfo(@PathVariable(value = "id") String id){
+    @GetMapping(value = "/user/{id}")
+    @ApiOperation(value = "查询用户信息") //在swagger文档中相当于方法别名/注释
+    public User getInfo(@ApiParam("用户id") //在swagger文档中相当于参数别名/注释
+                        @PathVariable(value = "id") String id){
         throw new UserNotExistException(id);
 
     }

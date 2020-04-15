@@ -1,6 +1,7 @@
 package com.yt.model;
 
 import com.fasterxml.jackson.annotation.JsonView;
+import io.swagger.annotations.ApiModelProperty;
 import org.hibernate.validator.constraints.NotBlank;
 
 import javax.validation.constraints.Past;
@@ -14,6 +15,7 @@ import java.util.Date;
 public class User {
     public interface UserSimpleView{};
     public interface UserDetailView extends UserSimpleView{};
+    @ApiModelProperty(value = "用户生日") //在swagger文档中相当于属性别名/注释
     private Date birthday;
     @NotBlank(message = "姓名不能为空")
     private String userName;
