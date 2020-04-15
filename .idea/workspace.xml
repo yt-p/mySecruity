@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0172a9f1-5274-4c58-b9d6-b5c0bde632ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/securitydemo/src/main/java/com/yt/aspect/TimeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/securitydemo/src/main/java/com/yt/async/AsyncController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/securitydemo/src/main/java/com/yt/async/DeferredResultHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/securitydemo/src/main/java/com/yt/async/MockQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitydemo/src/main/java/com/yt/SecurityDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/src/main/java/com/yt/SecurityDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitydemo/src/main/java/com/yt/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/src/main/java/com/yt/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitydemo/src/main/java/com/yt/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/src/main/java/com/yt/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitydemo/target/classes/com/yt/interceptor/UserInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/target/classes/com/yt/interceptor/UserInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/securitydemo/target/classes/com/yt/SecurityDemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/target/classes/com/yt/SecurityDemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/securitydemo/target/classes/com/yt/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/target/classes/com/yt/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/securitydemo/target/classes/com/yt/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/target/classes/com/yt/model/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,7 +63,7 @@
           <entry key="html" value="9" />
           <entry key="java" value="1911" />
           <entry key="properties" value="122" />
-          <entry key="txt" value="2" />
+          <entry key="txt" value="31" />
           <entry key="xml" value="167" />
         </counts>
       </usages-collector>
@@ -76,7 +71,7 @@
         <counts>
           <entry key="HTML" value="9" />
           <entry key="JAVA" value="1911" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="31" />
           <entry key="Properties" value="122" />
           <entry key="XML" value="167" />
         </counts>
@@ -449,7 +444,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586940217098" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586940301921" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/security/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -525,7 +520,7 @@
       <workItem from="1586224827277" duration="46000" />
       <workItem from="1586333455299" duration="839000" />
       <workItem from="1586912368050" duration="6287000" />
-      <workItem from="1586926423391" duration="8403000" />
+      <workItem from="1586926423391" duration="8678000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1586928049490</created>
@@ -541,15 +536,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586928116358</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="需要swagger依赖&#10;Swagger自动生成文档&#10;http://localhost:8080/swagger-ui.html 查看">
+      <created>1586940292907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586940292907</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31089000" />
+    <option name="totallyTimeSpent" value="31364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="745" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -561,7 +562,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39579967" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39579967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -571,7 +572,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49848714" weight="0.32956383" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.49848714" visible="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49924356" weight="0.3279483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -652,7 +653,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ss" />
-    <option name="LAST_COMMIT_MESSAGE" value="ss" />
+    <MESSAGE value="需要swagger依赖&#10;Swagger自动生成文档&#10;http://localhost:8080/swagger-ui.html 查看" />
+    <option name="LAST_COMMIT_MESSAGE" value="需要swagger依赖&#10;Swagger自动生成文档&#10;http://localhost:8080/swagger-ui.html 查看" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml" />
