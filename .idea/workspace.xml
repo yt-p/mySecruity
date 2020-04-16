@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0172a9f1-5274-4c58-b9d6-b5c0bde632ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/securitybrowser/src/main/java/com/yt/security/browser/authentication/YtAuthenticationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/securitycore/src/main/java/com/yt/security/core/properties/LoginType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/securitycore/src/main/java/com/yt/security/core/validate/code/ImageCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/securitycore/src/main/java/com/yt/security/core/validate/code/ValidateCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/securitydemo/src/main/resources/resources/index.html" afterDir="false" />
+    <list default="true" id="0172a9f1-5274-4c58-b9d6-b5c0bde632ec" name="Default Changelist" comment="xxx">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitybrowser/src/main/java/com/yt/security/browser/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/securitybrowser/src/main/java/com/yt/security/browser/BrowserSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitybrowser/src/main/java/com/yt/security/browser/authentication/YtAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/securitybrowser/src/main/java/com/yt/security/browser/authentication/YtAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitybrowser/target/classes/com/yt/security/browser/BrowserSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/securitybrowser/target/classes/com/yt/security/browser/BrowserSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitybrowser/target/classes/com/yt/security/browser/authentication/YtAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/securitybrowser/target/classes/com/yt/security/browser/authentication/YtAuthenticationSuccessHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitycore/src/main/java/com/yt/security/core/properties/BrowserProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/securitycore/src/main/java/com/yt/security/core/properties/BrowserProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitycore/target/classes/com/yt/security/core/properties/BrowserProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/securitycore/target/classes/com/yt/security/core/properties/BrowserProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitydemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitydemo/src/main/resources/resources/demo-signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/src/main/resources/resources/demo-signIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitydemo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitydemo/target/classes/resources/demo-signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/securitydemo/target/classes/resources/demo-signIn.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,7 +67,7 @@
           <entry key="html" value="156" />
           <entry key="java" value="3500" />
           <entry key="properties" value="253" />
-          <entry key="txt" value="74" />
+          <entry key="txt" value="77" />
           <entry key="xml" value="167" />
           <entry key="xx" value="4" />
         </counts>
@@ -91,7 +77,7 @@
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="156" />
           <entry key="JAVA" value="3500" />
-          <entry key="PLAIN_TEXT" value="78" />
+          <entry key="PLAIN_TEXT" value="81" />
           <entry key="Properties" value="253" />
           <entry key="XML" value="167" />
         </counts>
@@ -522,7 +508,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587025315816" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587025429663" />
     <property name="last_opened_file_path" value="D:/Desktop/imooc-SpringSecurity" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -605,7 +591,7 @@
       <workItem from="1586912368050" duration="6287000" />
       <workItem from="1586926423391" duration="11822000" />
       <workItem from="1586995724265" duration="14167000" />
-      <workItem from="1587015282852" duration="8864000" />
+      <workItem from="1587015282852" duration="9108000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1586928049490</created>
@@ -649,15 +635,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587015778021</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="xxx">
+      <created>1587025414731</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587025414731</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57539000" />
+    <option name="totallyTimeSpent" value="57783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="745" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -669,7 +661,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.33764136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.33764136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -679,7 +671,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014641" side_tool="true" weight="0.3946958" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49848714" weight="0.3279483" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.49848714" visible="true" weight="0.3279483" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49924356" weight="0.33764136" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -764,7 +756,8 @@
     <MESSAGE value="需要swagger依赖&#10;Swagger自动生成文档&#10;http://localhost:8080/swagger-ui.html 查看" />
     <MESSAGE value="自定义用户流程，配置认证表单跳转" />
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="xxx" />
+    <option name="LAST_COMMIT_MESSAGE" value="xxx" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/src.zip!/java/lang/Object.java">
