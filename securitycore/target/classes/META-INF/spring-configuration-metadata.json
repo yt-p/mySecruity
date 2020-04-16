@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.yt.security.core.properties.SecurityProperties",
+      "name": "yt.security",
+      "type": "com.yt.security.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.yt.security.core.properties.SecurityProperties",
+      "name": "yt.security.browser-properties",
+      "type": "com.yt.security.core.properties.BrowserProperties"
+    }
+  ]
+}
