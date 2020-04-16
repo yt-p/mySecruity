@@ -8,6 +8,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 
 /**
@@ -21,6 +22,8 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
     private SecurityProperties securityProperties;
     @Autowired
     private AuthenticationSuccessHandler ytAuthenticationSuccessHandler;
+    @Autowired
+    private AuthenticationFailureHandler ytAuthenticationFailureHandler;
     @Bean
     public PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
@@ -33,9 +36,13 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
         http.formLogin()
                 .loginPage("/authentication/require")
                 .loginProcessingUrl("/authentication/form")
+                .successHandler(ytAuthenticationSuccessHandler)
+                .failureHandler(ytAuthenticationFailureHandler)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/authentication/require",securityProperties.getBrowserProperties().getLoginPage())
+                .antMatchers("/authentication/require"
+                        ,securityProperties.getBrowserProperties().getLoginPage()
+                        ,"/code/image")
                 //当访问/yt-signIn.html时不需要身份认证
                 .permitAll()
                 .anyRequest()

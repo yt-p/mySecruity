@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>demo登录页</title>
+    <title>demo登录界面</title>
 </head>
 <body>
-demo登录页
+<form action="/authentication/form" method="post">
+    <p>用户名：<input type="text" name="username"></p>
+    <p>密码：<input type="password" name="password"></p>
+    <p>密码：<input type="text" name="imageCode">
+            <img src="/code/image">
+    </p>
+    <p><input type="submit" value="登录"></p>
+</form>
 </body>
 </html>
