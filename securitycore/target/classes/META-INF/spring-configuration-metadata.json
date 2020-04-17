@@ -12,6 +12,11 @@
       "sourceType": "com.yt.security.core.properties.SecurityProperties",
       "name": "yt.security.browser-properties",
       "type": "com.yt.security.core.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.yt.security.core.properties.SecurityProperties",
+      "name": "yt.security.code",
+      "type": "com.yt.security.core.properties.ValidateCodeProperties"
     }
   ]
 }

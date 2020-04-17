@@ -12,14 +12,19 @@ import java.util.Date;
 public class ImageCode {
     private BufferedImage image;
     private String code;
+    //到期时间
     private LocalDateTime expireTime;
-
+    //expire 验证码有效时间 ||失效时间
     public ImageCode(BufferedImage image, String code, int expire) {
         this.image = image;
         this.code = code;
+        //expireTime===当前时间加上有效时间
         this.expireTime = LocalDateTime.now().plusSeconds(expire);
     }
-
+    //验证码过期与否
+    public boolean isExpired(){
+        return LocalDateTime.now().isAfter(expireTime);
+    }
     public BufferedImage getImage() {
         return image;
     }

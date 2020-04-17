@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @Description: 认证成功处理
+ * @Description: 认证失败   处理
  * @Auther: yt
  * @Date: 2020/4/16 0016 11:10
  */
@@ -37,6 +37,7 @@ public class YtAuthenticationFailureHandler extends SimpleUrlAuthenticationFailu
             response.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
             response.setContentType("application/json;charset=utf-8");
             response.getWriter().write(objectMapper.writeValueAsString(e));
+
         }else {
             super.onAuthenticationFailure(request,response,e);
         }
