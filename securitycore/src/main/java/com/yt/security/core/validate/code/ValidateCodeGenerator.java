@@ -8,5 +8,5 @@ import javax.servlet.http.HttpServletRequest;
  * @Date: 2020/4/17 0017 12:51
  */
 public interface ValidateCodeGenerator {
-    ImageCode createImageCode(HttpServletRequest request);
+    ValidateCode createImageCode(HttpServletRequest request);
 }
